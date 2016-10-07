@@ -130,7 +130,8 @@ def getCardsFromComment(text, spell_check):
                 if cleanCard:
                     log.debug("cleaned card name: %s", cleanCard)
                     # slight spelling error?
-                    checkedCard = spell_check.correct(cleanCard)
+                    # checkedCard = spell_check.correct(cleanCard)
+                    checkedCard = cleanCard
                     if cleanCard != checkedCard:
                         log.info("spelling fixed: %s -> %s", cleanCard, checkedCard)
                     # add cardname
