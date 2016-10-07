@@ -248,7 +248,7 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
             card_db[cleanName(titleText['name'])] += 'Ship: {}\n\n'.format(titleText['ship'])
         if 'points' in titleText:
             card_db[cleanName(titleText['name'])] += 'Points: {}\n\n'.format(titleText['points'])
-        if titleText['name'] in titleText:
+        if titleText['name'] in titleTexts:
             card_db[cleanName(titleText['name'])] += titleTexts[titleText['name']]['text'] + '\n\n'
         card_db[cleanName(titleText['name'])] += '\n\n'
         log.info('Added %s', card_db[cleanName(titleText['name'])])
