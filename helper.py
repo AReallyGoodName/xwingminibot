@@ -190,8 +190,8 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
         else:
             card_db[cleanName(pilot['name'])] += 'Ship: {}\n\n'.format(ship_db[pilot['ship']]) + '\n\n'
         card_db[cleanName(pilot['name'])] += 'Skill: {}\n\nPoints: {}\n\n'.format(pilot['skill'], pilot['points'])
-        if pilot['name'] in pilotTexts:
-            card_db[cleanName(pilot['name'])] += pilotTexts[pilot['name']]['text'] + '\n\n'
+        if pilot['name'].replace('"','') in pilotTexts:
+            card_db[cleanName(pilot['name'])] += pilotTexts[pilot['name'].replace('"','')]['text'] + '\n\n'
         card_db[cleanName(pilot['name'])] += '\n\n'
         log.info('Added %s', card_db[cleanName(pilot['name'])])
 
@@ -212,8 +212,8 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
             card_db[cleanName(upgrade['name'])] += 'Range: {}\n\n'.format(upgrade['range'])
         if 'points' in upgrade:
             card_db[cleanName(upgrade['name'])] += 'Points: {}\n\n'.format(upgrade['points'])
-        if upgrade['name'] in upgradeTexts:
-            card_db[cleanName(upgrade['name'])] += upgradeTexts[upgrade['name']]['text'] + '\n\n'
+        if upgrade['name'].replace('"','') in upgradeTexts:
+            card_db[cleanName(upgrade['name'])] += upgradeTexts[upgrade['name'].replace('"','')]['text'] + '\n\n'
         card_db[cleanName(upgrade['name'])] += '\n\n'
         log.info('Added %s', card_db[cleanName(upgrade['name'])])
 
@@ -228,8 +228,8 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
             card_db[cleanName(modification['name'])] += 'Ship: {}\n\n'.format(modification['ship'])
         if 'points' in modification:
             card_db[cleanName(modification['name'])] += 'Points: {}\n\n'.format(modification['points'])
-        if modification['name'] in modificationTexts:
-            card_db[cleanName(modification['name'])] += modificationTexts[modification['name']]['text'] + '\n\n'
+        if modification['name'].replace('"','') in modificationTexts:
+            card_db[cleanName(modification['name'])] += modificationTexts[modification['name'].replace('"','')]['text'] + '\n\n'
         card_db[cleanName(modification['name'])] += '\n\n'
         log.info('Added %s', card_db[cleanName(modification['name'])])
 
@@ -244,8 +244,8 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
             card_db[cleanName(titleText['name'])] += 'Ship: {}\n\n'.format(titleText['ship'])
         if 'points' in titleText:
             card_db[cleanName(titleText['name'])] += 'Points: {}\n\n'.format(titleText['points'])
-        if titleText['name'] in titleTexts:
-            card_db[cleanName(titleText['name'])] += titleTexts[titleText['name']]['text'] + '\n\n'
+        if titleText['name'].replace('"','') in titleTexts:
+            card_db[cleanName(titleText['name'])] += titleTexts[titleText['name'].replace('"','')]['text'] + '\n\n'
         card_db[cleanName(titleText['name'])] += '\n\n'
         log.info('Added %s', card_db[cleanName(titleText['name'])])
     return card_db
