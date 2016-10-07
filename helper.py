@@ -93,14 +93,10 @@ def getTextForCards(card_db, cards):
     comment_text = ''
     for card in cards:
         log.info('getting text for %s', card)
-        if card in card_db:
-            log.debug('adding card to text: %s', card)
-            comment_text += card_db[card]
-        else:
-            # Find cards containing the match
-            for name, cardText in card_db.items():
-                if len(card) > 2 and name.startswith(card):
-                    comment_text += cardText
+        # Find cards containing the match
+        for name, cardText in card_db.items():
+            if len(card) > 2 and name.startswith(card):
+                comment_text += cardText
 
     if comment_text:
         comment_text += signature
