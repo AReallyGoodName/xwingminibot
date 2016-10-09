@@ -101,7 +101,7 @@ def getTextForCards(card_db, cards):
     if comment_text:
         comment_text += signature
 
-    # Loop through cards and find the longest match
+    comment_text = comment_text.replace('\n\n', '    \n')
 
     return comment_text
 
@@ -172,11 +172,12 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
     """ formats all the cards to text """
     # TODO cardDB should be an object by now instead of a dict
     card_db = {}
+    initialisms_db = {}
     ship_db = {}
 
     for name, ship in cards['ships'].items():
         ship_db[name] = '{} ({}/{}/{}/{})'.format(name, ship.get('attack') or 0, ship['agility'], ship['hull'], ship['shields'])
-        card_db[name] = ship_db[name] + '\n\n'
+        card_db[cleanName(name)] = '**' + ship_db[name] + '**\n\r\n'
 
     # fill templates
     for pilot in cards['pilotsById']:
@@ -185,14 +186,14 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
         card_db[cleanName(pilot['name'])] += '**' + '{}'.format(pilot['name']) + '**'
         if 'unique' in pilot:
             card_db[cleanName(pilot['name'])] += ' *'
-        card_db[cleanName(pilot['name'])] += '\n\n'
+        card_db[cleanName(pilot['name'])] += '\n\r\n'
         if 'ship_override' in pilot:
-            card_db[cleanName(pilot['name'])] += '{} ({}/{}/{}/{})'.format(pilot['ship'], pilot['ship_override'].get('attack') or 0, pilot['ship_override']['agility'], pilot['ship_override']['hull'], pilot['ship_override']['shields']) + '\n\n'
+            card_db[cleanName(pilot['name'])] += '^^Ship: {} ({}/{}/{}/{})'.format(pilot['ship'], pilot['ship_override'].get('attack') or 0, pilot['ship_override']['agility'], pilot['ship_override']['hull'], pilot['ship_override']['shields']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^') + '\n\n'
         else:
-            card_db[cleanName(pilot['name'])] += 'Ship: {}\n\n'.format(ship_db[pilot['ship']]) + '\n\n'
-        card_db[cleanName(pilot['name'])] += 'Skill: {}\n\nPoints: {}\n\n'.format(pilot['skill'], pilot['points'])
+            card_db[cleanName(pilot['name'])] += ('^^Ship: {}\n\n'.format(ship_db[pilot['ship']])).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
+        card_db[cleanName(pilot['name'])] += '^^Skill: {}\n\n^^Points: {}\n\n'.format(pilot['skill'], pilot['points']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if pilot['name'].replace('"','') in pilotTexts:
-            card_db[cleanName(pilot['name'])] += pilotTexts[pilot['name'].replace('"','')]['text'] + '\n\n'
+            card_db[cleanName(pilot['name'])] += ('^^' + pilotTexts[pilot['name'].replace('"','')]['text'] + '\n\n').replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         card_db[cleanName(pilot['name'])] += '\n\n'
         log.info('Added %s', card_db[cleanName(pilot['name'])])
 
@@ -202,19 +203,19 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
         card_db[cleanName(upgrade['name'])] += '**' + '{}'.format(upgrade['name']) + '**'
         if 'unique' in upgrade:
             card_db[cleanName(upgrade['name'])] += ' *'
-        card_db[cleanName(upgrade['name'])] += '\n\n'
+        card_db[cleanName(upgrade['name'])] += '\n\r\n'
         if 'faction' in upgrade:
-            card_db[cleanName(upgrade['name'])] += 'Faction: {}\n\n'.format(upgrade['faction'])
+            card_db[cleanName(upgrade['name'])] += '^^Faction: {}\n\n'.format(upgrade['faction']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if 'slot' in upgrade:
-            card_db[cleanName(upgrade['name'])] += 'Type: {}\n\n'.format(upgrade['slot'])
+            card_db[cleanName(upgrade['name'])] += '^^Type: {}\n\n'.format(upgrade['slot']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if 'attack' in upgrade:
-            card_db[cleanName(upgrade['name'])] += 'Attack: {}\n\n'.format(upgrade['attack'])
+            card_db[cleanName(upgrade['name'])] += '^^Attack: {}\n\n'.format(upgrade['attack']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if 'range' in upgrade:
-            card_db[cleanName(upgrade['name'])] += 'Range: {}\n\n'.format(upgrade['range'])
+            card_db[cleanName(upgrade['name'])] += '^^Range: {}\n\n'.format(upgrade['range']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if 'points' in upgrade:
-            card_db[cleanName(upgrade['name'])] += 'Points: {}\n\n'.format(upgrade['points'])
+            card_db[cleanName(upgrade['name'])] += '^^Points: {}\n\n'.format(upgrade['points']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if upgrade['name'].replace('"','') in upgradeTexts:
-            card_db[cleanName(upgrade['name'])] += upgradeTexts[upgrade['name'].replace('"','')]['text'] + '\n\n'
+            card_db[cleanName(upgrade['name'])] += ('^^' + upgradeTexts[upgrade['name'].replace('"','')]['text'] + '\n\n').replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         card_db[cleanName(upgrade['name'])] += '\n\n'
         log.info('Added %s', card_db[cleanName(upgrade['name'])])
 
@@ -224,13 +225,13 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
         card_db[cleanName(modification['name'])] += '**' + '{}'.format(modification['name']) + '**'
         if 'unique' in modification:
             card_db[cleanName(modification['name'])] += ' *'
-        card_db[cleanName(modification['name'])] += '\n\n'
+        card_db[cleanName(modification['name'])] += '\n\r\n'
         if 'ship' in modification:
-            card_db[cleanName(modification['name'])] += 'Ship: {}\n\n'.format(modification['ship'])
+            card_db[cleanName(modification['name'])] += '^Ship: {}\n\n'.format(modification['ship']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if 'points' in modification:
-            card_db[cleanName(modification['name'])] += 'Points: {}\n\n'.format(modification['points'])
+            card_db[cleanName(modification['name'])] += '^Points: {}\n\n'.format(modification['points']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if modification['name'].replace('"','') in modificationTexts:
-            card_db[cleanName(modification['name'])] += modificationTexts[modification['name'].replace('"','')]['text'] + '\n\n'
+            card_db[cleanName(modification['name'])] += ('^^' + modificationTexts[modification['name'].replace('"','')]['text'] + '\n\n').replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         card_db[cleanName(modification['name'])] += '\n\n'
         log.info('Added %s', card_db[cleanName(modification['name'])])
 
@@ -240,13 +241,33 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
         card_db[cleanName(titleText['name'])] += '**' + '{}'.format(titleText['name']) + '**'
         if 'unique' in titleText:
             card_db[cleanName(titleText['name'])] += ' *'
-        card_db[cleanName(titleText['name'])] += '\n\n'
+        card_db[cleanName(titleText['name'])] += '\n\r\n'
         if 'ship' in titleText:
-            card_db[cleanName(titleText['name'])] += 'Ship: {}\n\n'.format(titleText['ship'])
+            card_db[cleanName(titleText['name'])] += '^Ship: {}\n\n'.format(titleText['ship']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if 'points' in titleText:
-            card_db[cleanName(titleText['name'])] += 'Points: {}\n\n'.format(titleText['points'])
+            card_db[cleanName(titleText['name'])] += '^Points: {}\n\n'.format(titleText['points']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if titleText['name'].replace('"','') in titleTexts:
-            card_db[cleanName(titleText['name'])] += titleTexts[titleText['name'].replace('"','')]['text'] + '\n\n'
+            card_db[cleanName(titleText['name'])] += ('^^' + titleTexts[titleText['name'].replace('"','')]['text'] + '\n\n').replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         card_db[cleanName(titleText['name'])] += '\n\n'
         log.info('Added %s', card_db[cleanName(titleText['name'])])
+
+    # Create initialisms
+    for upgrade in cards['upgradesById']:
+        if len(upgrade['name'].split()) > 1:
+            log.info('Adding %s initialism for %s', cleanName(''.join(title[0] for title in upgrade['name'].split())), upgrade['name'])
+            initialisms_db[cleanName(''.join(title[0] for title in upgrade['name'].split()))] = card_db[cleanName(upgrade['name'])]
+
+    for modification in cards['modificationsById']:
+        if len(modification['name'].split()) > 1:
+            log.info('Adding %s initialism for %s', cleanName(''.join(title[0] for title in modification['name'].split())), modification['name'])
+            initialisms_db[cleanName(''.join(title[0] for title in modification['name'].split()))] = card_db[cleanName(modification['name'])]
+
+    for titleText in cards['titlesById']:
+        if len(titleText['name'].split()) > 1:
+            log.info('Adding %s initialism for %s', cleanName(''.join(title[0] for title in titleText['name'].split())), titleText['name'])
+            initialisms_db[cleanName(''.join(title[0] for title in titleText['name'].split()))] = card_db[cleanName(titleText['name'])]
+
+    for name, text in initialisms_db.items():
+        card_db[name] = text
+
     return card_db
