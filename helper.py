@@ -187,6 +187,8 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
         if 'unique' in pilot:
             card_db[cleanName(pilot['name'])] += ' *'
         card_db[cleanName(pilot['name'])] += '\n\r\n'
+        if 'limited' in pilot:
+            card_db[cleanName(pilot['name'])] += '^^*limited*\n\n'
         if 'ship_override' in pilot:
             card_db[cleanName(pilot['name'])] += '^^Ship: {} ({}/{}/{}/{})'.format(pilot['ship'], pilot['ship_override'].get('attack') or 0, pilot['ship_override']['agility'], pilot['ship_override']['hull'], pilot['ship_override']['shields']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^') + '\n\n'
         else:
@@ -204,6 +206,8 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
         if 'unique' in upgrade:
             card_db[cleanName(upgrade['name'])] += ' *'
         card_db[cleanName(upgrade['name'])] += '\n\r\n'
+        if 'limited' in upgrade:
+            card_db[cleanName(upgrade['name'])] += '^^*limited*\n\n'
         if 'faction' in upgrade:
             card_db[cleanName(upgrade['name'])] += '^^Faction: {}\n\n'.format(upgrade['faction']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if 'slot' in upgrade:
@@ -226,10 +230,12 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
         if 'unique' in modification:
             card_db[cleanName(modification['name'])] += ' *'
         card_db[cleanName(modification['name'])] += '\n\r\n'
+        if 'limited' in modification:
+            card_db[cleanName(modification['name'])] += '^^*limited*\n\n'
         if 'ship' in modification:
-            card_db[cleanName(modification['name'])] += '^Ship: {}\n\n'.format(modification['ship']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
+            card_db[cleanName(modification['name'])] += '^^Ship: {}\n\n'.format(modification['ship']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if 'points' in modification:
-            card_db[cleanName(modification['name'])] += '^Points: {}\n\n'.format(modification['points']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
+            card_db[cleanName(modification['name'])] += '^^Points: {}\n\n'.format(modification['points']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if modification['name'].replace('"','') in modificationTexts:
             card_db[cleanName(modification['name'])] += ('^^' + modificationTexts[modification['name'].replace('"','')]['text'] + '\n\n').replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         card_db[cleanName(modification['name'])] += '\n\n'
@@ -242,10 +248,12 @@ def _createCardDB(cards, pilotTexts, upgradeTexts, modificationTexts, titleTexts
         if 'unique' in titleText:
             card_db[cleanName(titleText['name'])] += ' *'
         card_db[cleanName(titleText['name'])] += '\n\r\n'
+        if 'limited' in titleText:
+            card_db[cleanName(titleText['name'])] += '^^*limited*\n\n'
         if 'ship' in titleText:
-            card_db[cleanName(titleText['name'])] += '^Ship: {}\n\n'.format(titleText['ship']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
+            card_db[cleanName(titleText['name'])] += '^^Ship: {}\n\n'.format(titleText['ship']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if 'points' in titleText:
-            card_db[cleanName(titleText['name'])] += '^Points: {}\n\n'.format(titleText['points']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
+            card_db[cleanName(titleText['name'])] += '^^Points: {}\n\n'.format(titleText['points']).replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         if titleText['name'].replace('"','') in titleTexts:
             card_db[cleanName(titleText['name'])] += ('^^' + titleTexts[titleText['name'].replace('"','')]['text'] + '\n\n').replace('(','&#40;').replace('(','&#41;').replace(' ',' ^^')
         card_db[cleanName(titleText['name'])] += '\n\n'
