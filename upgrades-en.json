@@ -1,0 +1,626 @@
+{
+  "Ion Cannon Turret": {
+    "text": "Attack: Attack 1 ship (even a ship outside your firing arc). If this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token. Then cancel all dice results."
+  },
+  "Proton Torpedoes": {
+    "text": "Attack (target lock): Spend your target lock and discard this card to perform this attack. You may change 1 of your focus results to a crit result."
+  },
+  "R2 Astromech": {
+    "text": "You may treat all 1- and 2-speed maneuvers as green maneuvers."
+  },
+  "R2-D2": {
+    "text": "After executing a green maneuver, you may recover 1 shield (up to your shield value)."
+  },
+  "R2-F2": {
+    "text": "Action: Increase your agility value by 1 until the end of this game round."
+  },
+  "R5-D8": {
+    "text": "Action: Roll 1 defense die. On a evade or focus result, discard 1 of your facedown Damage cards."
+  },
+  "R5-K6": {
+    "text": "After spending your target lock, roll 1 defense die. On a evade result, immediately acquire a target lock on that same ship. You cannot spend this target lock during this attack."
+  },
+  "R5 Astromech": {
+    "text": "During the End phase, you may choose 1 of your faceup Damage cards with the Ship trait and flip it facedown."
+  },
+  "Determination": {
+    "text": "When you are dealt a faceup Damage card with the Pilot trait, discard it immediately without resolving its effect."
+  },
+  "Swarm Tactics": {
+    "text": "At the start of the Combat phase, you may choose 1 friendly ship at Range 1. Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill."
+  },
+  "Squad Leader": {
+    "text": "Action: Choose 1 ship at Range 1-2 that has a lower pilot skill than you. The chosen ship may immediately perform 1 free action."
+  },
+  "Expert Handling": {
+    "text": "Action: Perform a free barrel roll action. If you do not have the barrel roll action icon, receive 1 stress token. You may then remove 1 enemy target lock from your ship."
+  },
+  "Marksmanship": {
+    "text": "Action: When attacking this round, you may change 1 of your focus results to a crit result and all of your other focus results to hit results."
+  },
+  "Concussion Missiles": {
+    "text": "Attack (target lock): Spend your target lock and discard this card to perform this attack. You may change 1 of your blank results to a hit result."
+  },
+  "Cluster Missiles": {
+    "text": "Attack (target lock): Spend your target lock and discard this card to perform this attack twice."
+  },
+  "Daredevil": {
+    "text": "Action: Execute a white (turn left 1) or (turn right 1) maneuver. Then, receive 1 stress token. Then, if you do not have the boost action icon, roll 2 attack dice. Suffer any damage (hit) and any critical damage (crit) rolled."
+  },
+  "Elusiveness": {
+    "text": "When defending, you may receive 1 stress token to choose 1 attack die. The attacker must reroll that die. If you have at least 1 stress token, you cannot use this ability."
+  },
+  "Homing Missiles": {
+    "text": "Attack (target lock): Discard this card to perform this attack. The defender cannot spend evade tokens during this attack."
+  },
+  "Push the Limit": {
+    "text": "Once per round, after you perform an action, you may perform 1 free action shown in your action bar. Then receive 1 stress token."
+  },
+  "Deadeye": {
+    "text": "Small ship only. You may treat the Attack (target lock): header as Attack (focus):. When an attack instructs you to spend a target lock, you may spend a focus token instead."
+  },
+  "Expose": {
+    "text": "Action: Until the end of the round, increase your primary weapon value by 1 and decrease your agility value by 1."
+  },
+  "Gunner": {
+    "text": "After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You cannot perform another attack this round."
+  },
+  "Ion Cannon": {
+    "text": "Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and receives 1 ion token. Then cancel all dice results."
+  },
+  "Heavy Laser Cannon": {
+    "text": "Attack: Attack 1 ship. Immediately after rolling your attack dice, you must change all of your crit results to hit results."
+  },
+  "Seismic Charges": {
+    "text": "When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token. This token detonates at the end of the Activation phase. Seismic Charge Token: When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage. Then discard this token."
+  },
+  "Mercenary Copilot": {
+    "text": "When attacking at Range 3, you may change 1 of your hit results to a crit result."
+  },
+  "Assault Missiles": {
+    "text": "Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, each other ship at Range 1 of the defender suffers 1 damage."
+  },
+  "Veteran Instincts": {
+    "text": "Increase your pilot skill value by 2."
+  },
+  "Proximity Mines": {
+    "text": "Action: Discard this card to drop 1 proximity mine token. When a ship's base or maneuver template overlaps this token, this token detonates. Proximity Mine Token: When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage (hit) and critical damage (crit) rolled. Then discard this token."
+  },
+  "Weapons Engineer": {
+    "text": "You may maintain 2 target locks (only 1 per enemy ship). When you acquire a target lock, you may lock onto 2 different ships."
+  },
+  "Draw Their Fire": {
+    "text": "When a friendly ship at Range 1 is hit by an attack, you may suffer 1 of the uncanceled crit results instead of the target ship."
+  },
+  "Luke Skywalker": {
+    "text": "Rebel only. After you perform an attack that does not hit, you may immediately perform a primary weapon attack. You may change 1 focus result to a hit result. You cannot perform another attack this round."
+  },
+  "Nien Nunb": {
+    "text": "Rebel only. You may treat all straight maneuvers as green maneuvers."
+  },
+  "Chewbacca": {
+    "text": "Rebel only. When you are dealt a Damage card, you may immediately discard that card and recover 1 shield. Then, discard this Upgrade card."
+  },
+  "Advanced Proton Torpedoes": {
+    "text": "Attack (target lock): Spend your target lock and discard this card to perform this attack. You may change up to 3 of your blank results to focus results."
+  },
+  "Autoblaster": {
+    "text": "Attack: Attack 1 ship. Your hit results cannot be canceled by defense dice. The defender may cancel crit results before hit results."
+  },
+  "Fire-Control System": {
+    "text": "After you perform an attack, you may acquire a target lock on the defender."
+  },
+  "Blaster Turret": {
+    "text": "Attack (focus): Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc)."
+  },
+  "Recon Specialist": {
+    "text": "When you perform a focus action, assign 1 additional focus token to your ship."
+  },
+  "Saboteur": {
+    "text": "Action: Choose 1 enemy ship at Range 1 and roll 1 attack die. On a hit or crit result, choose 1 random facedown Damage card assigned to that ship, flip it faceup, and resolve it."
+  },
+  "Intelligence Agent": {
+    "text": "At the start of the Activation phase, choose 1 enemy ship at Range 1-2. You may look at that ship's chosen maneuver."
+  },
+  "Proton Bombs": {
+    "text": "When you reveal your maneuver dial, you may discard this card to drop 1 proton bomb token. This token detonates at the end of the Activation phase. Proton Bomb Token: When this bomb token detonates, deal 1 faceup Damage card to each ship at Range 1 of the token. Then discard this token."
+  },
+  "Adrenaline Rush": {
+    "text": "When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver until the end of the Activation phase."
+  },
+  "Advanced Sensors": {
+    "text": "Immediately before you reveal your maneuver, you may perform 1 free action. If you use this ability, you must skip your Perform Action step during this round."
+  },
+  "Sensor Jammer": {
+    "text": "When defending, you may change 1 of the attacker's hit results into a focus result. The attacker cannot reroll the die with the changed result."
+  },
+  "Darth Vader": {
+    "text": "Imperial only. After you perform an attack against an enemy ship, you may suffer 2 damage to cause that ship to suffer 1 critical damage."
+  },
+  "Rebel Captive": {
+    "text": "Imperial only. Once per round, the first ship that declares you as the target of an attack immediately receives 1 stress token."
+  },
+  "Flight Instructor": {
+    "text": "When defending, you may reroll 1 of your focus results. If the attacker's pilot skill value is 2 or lower, you may reroll 1 of your blank results instead."
+  },
+  "Navigator": {
+    "text": "When you reveal a maneuver, you may rotate your dial to another maneuver with the same bearing. You cannot rotate to a red maneuver if you have any stress tokens."
+  },
+  "Opportunist": {
+    "text": "When attacking, if the defender does not have any focus or evade tokens, you may receive 1 stress token to roll 1 additional attack die. You cannot use this ability if you have any stress tokens."
+  },
+  "Comms Booster": {
+    "text": "Energy: Spend 1 energy to remove all stress tokens from a friendly ship at Range 1-3. Then assign 1 focus token to that ship."
+  },
+  "Slicer Tools": {
+    "text": "Action: Choose 1 or more ships at Range 1-3 that have a stress token. For each ship chosen, you may spend 1 energy to cause that ship to suffer 1 damage."
+  },
+  "Shield Projector": {
+    "text": "When an enemy ship is declaring either a small or large ship as the target of its attack, you may spend 3 energy to force that ship to target you if possible."
+  },
+  "Ion Pulse Missiles": {
+    "text": "Attack (target lock): Discard this card to perform this attack. If this attack hits, the defender suffers 1 damage and receives 2 ion tokens. Then cancel all dice results."
+  },
+  "Wingman": {
+    "text": "At the start of the Combat phase, remove 1 stress token from another friendly ship at Range 1."
+  },
+  "Decoy": {
+    "text": "At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2. Exchange your pilot skill with that ship's pilot skill until the end of the phase."
+  },
+  "Outmaneuver": {
+    "text": "When attacking a ship inside your firing arc, if you are not inside that ship's firing arc, reduce its agility value by 1 (to a minimum of 0)."
+  },
+  "Predator": {
+    "text": "When attacking, you may reroll 1 attack die. If the defender's pilot skill value is 2 or lower, you may instead reroll up to 2 attack dice."
+  },
+  "Flechette Torpedoes": {
+    "text": "Attack (target lock): Discard this card and spend your target lock to perform this attack. After you perform this attack, the defender receives 1 stress token if its hull value is 4 or lower."
+  },
+  "R7 Astromech": {
+    "text": "Once per round when defending, if you have a target lock on the attacker, you may spend the target lock to choose any or all attack dice. The attacker must reroll the chosen dice."
+  },
+  "R7-T1": {
+    "text": "Action: Choose an enemy ship at Range 1-2. If you are inside that ship's firing arc, you may acquire a target lock on that ship. Then, you may perform a free boost action."
+  },
+  "Tactician": {
+    "text": "After you perform an attack against a ship inside your firing arc at Range 2, that ship receives 1 stress token."
+  },
+  "R2-D2 (Crew)": {
+    "text": "Rebel only. At the end of the End phase, if you have no shields, you may recover 1 shield and roll 1 attack die. On a hit result, randomly flip 1 of your facedown Damage cards faceup and resolve it."
+  },
+  "C-3PO": {
+    "text": "Rebel only. Once per round, before you roll 1 or more defense dice, you may guess aloud a number of evade results. If you roll that many evade results (before modifying dice), add 1 evade result."
+  },
+  "Single Turbolasers": {
+    "text": "Attack (Energy): Spend 2 energy from this card to perform this attack. The defender doubles his agility value against this attack. You may change 1 of your focus results to a hit result."
+  },
+  "Quad Laser Cannons": {
+    "text": "Attack (Energy): Spend 1 energy from this card to perform this attack. If this attack does not hit, you may immediately spend 1 energy from this card to perform this attack again."
+  },
+  "Tibanna Gas Supplies": {
+    "text": "Energy: You may discard this card to gain 3 energy."
+  },
+  "Ionization Reactor": {
+    "text": "Energy: Spend 5 energy from this card and discard this card to cause each other ship at Range 1 to suffer 1 damage and receive 1 ion token."
+  },
+  "Engine Booster": {
+    "text": "Immediately before you reveal your maneuver dial, you may spend 1 energy to execute a white (straight 1) maneuver. You cannot use this ability if you would overlap another ship."
+  },
+  "R3-A2": {
+    "text": "When you declare the target of your attack, if the defender is inside your firing arc, you may receive 1 stress token to cause the defender to receive 1 stress token."
+  },
+  "R2-D6": {
+    "text": "Your upgrade bar gains the elite upgrade icon. You cannot equip this upgrade if you already have a elite upgrade icon or if your pilot skill value is 2 or lower."
+  },
+  "Enhanced Scopes": {
+    "text": "During the Activation phase, treat your pilot skill value as 0."
+  },
+  "Chardaan Refit": {
+    "text": "A-Wing only. This card has a negative squad point cost."
+  },
+  "Proton Rockets": {
+    "text": "Attack (Focus): Discard this card to perform this attack. You may roll additional attack dice equal to your agility value, to a maximum of 3 additional dice."
+  },
+  "Kyle Katarn": {
+    "text": "Rebel only. After you remove a stress token from your ship, you may assign a focus token to your ship."
+  },
+  "Jan Ors": {
+    "text": "Rebel only. Once per round, when a friendly ship at Range 1-3 performs a focus action or would be assigned a focus token, you may assign it an evade token instead."
+  },
+  "Toryn Farr": {
+    "text": "Huge ship only Rebel only. Action: Spend any amount of energy to choose that many enemy ships at Range 1-2. Remove all focus, evade, and blue target lock tokens from those ships."
+  },
+  "R4-D6": {
+    "text": "When you are hit by an attack and there are at least 3 uncanceled hit results, you may choose to cancel those results until there are 2 remaining. For each result canceled this way, receive 1 stress token."
+  },
+  "R5-P9": {
+    "text": "At the end of the Combat phase, you may spend 1 of your focus tokens to recover 1 shield (up to your shield value)."
+  },
+  "WED-15 Repair Droid": {
+    "text": "Huge ship only. Action: Spend 1 energy to discard 1 of your facedown Damage cards, or spend 3 energy to discard 1 of your faceup Damage cards."
+  },
+  "Carlist Rieekan": {
+    "text": "Huge ship only Rebel only. At the start of the Activation phase, you may discard this card to treat each friendly ship's pilot skill value as 12 until the end of the phase."
+  },
+  "Jan Dodonna": {
+    "text": "Huge ship only Rebel only. When another friendly ship at Range 1 is attacking, it may change 1 of its hit results to a crit."
+  },
+  "Expanded Cargo Hold": {
+    "text": "GR-75 only. Once per round, when you would be dealt a faceup Damage card, you may draw that card from either the fore or aft Damage deck."
+  },
+  "Backup Shield Generator": {
+    "text": "At the end of each round, you may spend 1 energy to recover 1 shield (up to your shield value)."
+  },
+  "EM Emitter": {
+    "text": "When you obstruct an attack, the defender rolls 3 additional defense dice (instead of 1)."
+  },
+  "Frequency Jammer": {
+    "text": "When you perform a jam action, choose 1 enemy ship that does not have a stress token and is at Range 1 of the jammed ship. The chosen ship receives 1 stress token."
+  },
+  "Han Solo": {
+    "text": "Rebel only. When attacking, if you have a target lock on the defender, you may spend that target lock to change all of your focus results to hit results."
+  },
+  "Leia Organa": {
+    "text": "Rebel only. At the start of the Activation phase, you may discard this card to allow all friendly ships that reveal a red maneuver to treat that maneuver as a white maneuver until the end of the phase."
+  },
+  "Targeting Coordinator": {
+    "text": "Energy: You may spend 1 energy to choose 1 friendly ship at Range 1-2. Acquire a target lock, then assign the blue target lock token to the chosen ship."
+  },
+  "Raymus Antilles": {
+    "text": "Huge ship only Rebel only. At the start of the Activation phase, choose 1 enemy ship at Range 1-3. You may look at that ship's chosen maneuver. If the maneuver is white, assign that ship 1 stress token."
+  },
+  "Gunnery Team": {
+    "text": "Once per round, when attacking with a secondary weapon, you may spend 1 energy to change 1 of your blank results to a hit result."
+  },
+  "Sensor Team": {
+    "text": "When acquiring a target lock, you may lock onto an enemy ship at Range 1-5 instead of 1-3."
+  },
+  "Engineering Team": {
+    "text": "During the Activation phase, when you reveal a straight maneuver, gain 1 additional energy during the Gain Energy step."
+  },
+  "Lando Calrissian": {
+    "text": "Rebel only. Action: Roll 2 defense dice. For each focus result, assign 1 focus token to your ship. For each evade result, assign 1 evade token to your ship."
+  },
+  "Mara Jade": {
+    "text": "Imperial only. At the end of the Combat phase, each enemy ship at Range 1 that does not have a stress token receives 1 stress token."
+  },
+  "Fleet Officer": {
+    "text": "Imperial only. Action: Choose up to 2 friendly ships at Range 1-2 and assign 1 focus token to each of those ships. Then receive 1 stress token."
+  },
+  "Lone Wolf": {
+    "text": "When attacking or defending, if there are no other friendly ships at Range 1-2, you may reroll 1 of your blank results."
+  },
+  "Stay On Target": {
+    "text": "When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed. Treat that maneuver as a red maneuver."
+  },
+  "Dash Rendar": {
+    "text": "Rebel only. You may perform attacks while overlapping an obstacle. Your attacks cannot be obstructed."
+  },
+  "Leebo": {
+    "text": "Rebel only. Action: Perform a free boost action. Then receive 1 ion token."
+  },
+  "Ruthlessness": {
+    "text": "Imperial only. After you perform an attack that hits, you must choose 1 other ship at Range 1 of the defender (other than yourself). That ship suffers 1 damage."
+  },
+  "Intimidation": {
+    "text": "While you are touching an enemy ship, reduce that ship's agility value by 1."
+  },
+  "Ysanne Isard": {
+    "text": "Imperial only. At the start of the Combat phase, if you have no shields and at least 1 Damage card assigned to your ship, you may perform a free evade action."
+  },
+  "Moff Jerjerrod": {
+    "text": "Imperial only. When you are dealt a faceup Damage card, you may discard this Upgrade card or another crew Upgrade card to flip that Damage card facedown (without resolving its effect)."
+  },
+  "Ion Torpedoes": {
+    "text": "Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, the defender and each ship at Range 1 of it receives 1 ion token."
+  },
+  "Bodyguard": {
+    "text": "Scum only. At the start of the Combat phase, you may spend a focus token to choose a friendly ship at Range 1 with higher pilot skill than you. Increase its agility value by 1 until the end of the round."
+  },
+  "Calculation": {
+    "text": "When attacking, you may spend a focus token to change 1 of your focus results to a crit result."
+  },
+  "Accuracy Corrector": {
+    "text": "When attacking, during the Modify Attack Dice step, you may cancel all of your dice results. Then, you may add 2 hit results to your roll. Your dice cannot be modified again during this attack."
+  },
+  "Inertial Dampeners": {
+    "text": "When you reveal your maneuver, you may discard this card to instead perform a white (0 stop) maneuver. Then receive 1 stress token."
+  },
+  "Flechette Cannon": {
+    "text": "Attack: Attack 1 ship. If this attack hits, the defender suffers 1 damage and, if the defender is not stressed, it also receives 1 stress token. Then cancel all dice results."
+  },
+  "Mangler Cannon": {
+    "text": "Attack: Attack 1 ship. When attacking, you may change 1 of your hit results to a crit result."
+  },
+  "Dead Man's Switch": {
+    "text": "When you are destroyed, each ship at Range 1 suffers 1 damage."
+  },
+  "Feedback Array": {
+    "text": "During the Combat phase, instead of performing any attacks, you may receive 1 ion token and suffer 1 damage to choose 1 enemy ship at Range 1. That ship suffers 1 damage."
+  },
+  "Hot Shot Blaster": {
+    "text": "Attack: Discard this card to attack 1 ship (even a ship outside your firing arc)."
+  },
+  "Greedo": {
+    "text": "Scum only. The first time you attack each round and the first time you defend each round, the first Damage card dealt is dealt faceup."
+  },
+  "Salvaged Astromech": {
+    "text": "When you are dealt a faceup Damage card with the Ship trait, you may immediately discard that card (before resolving its effect). Then, discard this Upgrade card."
+  },
+  "Bomb Loadout": {
+    "text": "Y-Wing only. Your upgrade bar gains the bomb icon."
+  },
+  "Genius": {
+    "text": "If you are equipped with a bomb that can be dropped when you reveal your maneuver, you may drop the bomb after you execute your maneuver instead."
+  },
+  "Unhinged Astromech": {
+    "text": "You may treat all 3-speed maneuvers as green maneuvers."
+  },
+  "R4-B11": {
+    "text": "When attacking, if you have a target lock on the defender, you may spend the target lock to choose any or all defense dice. The defender must reroll the chosen dice."
+  },
+  "Autoblaster Turret": {
+    "text": "Attack: Attack 1 ship (even a ship outside your firing arc). Your hit results cannot be canceled by defense dice. The defender may cancel crit results before hit results."
+  },
+  "R4 Agromech": {
+    "text": "When attacking, after you spend a focus token, you may acquire a target lock on the defender."
+  },
+  "K4 Security Droid": {
+    "text": "Scum only. After executing a green maneuver, you may acquire a target lock."
+  },
+  "Outlaw Tech": {
+    "text": "Scum only. After you execute a red maneuver, you may assign 1 focus token to your ship."
+  },
+  "Advanced Targeting Computer": {
+    "text": "TIE Advanced only. When attacking with your primary weapon, if you have a target lock on the defender, you may add 1 crit result to your roll. If you do, you cannot spend target locks during this attack."
+  },
+  "Ion Cannon Battery": {
+    "text": "Attack (energy): Spend 2 energy from this card to perform this attack. If this attack hits, the defender suffers 1 critical damage and receives 1 ion token. Then cancel all dice results."
+  },
+  "Extra Munitions": {
+    "text": "When you equip this card, place 1 ordnance token on each equipped torpedo, missile, and bomb Upgrade card. When you are instructed to discard an Upgrade card, you may discard 1 ordnance token on that card instead."
+  },
+  "Cluster Mines": {
+    "text": "Action: Discard this card to drop 3 cluster mine tokens. When a ship's base or maneuver template overlaps a cluster mine token, that token detonates. Cluster Mines Tokens: When one of these bomb tokens detonates, the ship that moved through or overlapped that token rolls 2 attack dice and suffers 1 damage for each hit and crit rolled. Then discard that token."
+  },
+  "Glitterstim": {
+    "text": "At the start of the Combat phase, you may discard this card and receive 1 stress token. If you do, until the end of the round, when attacking or defending, you may change all of your focus results to hit or evade results."
+  },
+  "Grand Moff Tarkin": {
+    "text": "Huge ship only Imperial only. At the start of the Combat phase, you may choose another ship at Range 1-4. Either remove 1 focus token from the chosen ship or assign 1 focus token to that ship."
+  },
+  "Captain Needa": {
+    "text": "Huge ship only Imperial only. If you overlap an obstacle during the Activation phase, do not suffer 1 faceup damage card. Instead, roll 1 attack die. On a hit or crit result, suffer 1 damage."
+  },
+  "Admiral Ozzel": {
+    "text": "Huge ship only Imperial only. Energy: You may remove up to 3 shields from your ship. For each shield removed, gain 1 energy."
+  },
+  "Emperor Palpatine": {
+    "text": "Imperial only. Once per round, you may change a friendly ship's die result to any other die result. That die result cannot be modified again."
+  },
+  "Bossk": {
+    "text": "Scum only. After you perform an attack that does not hit, if you are not stressed, you must receive 1 stress token. Then assign 1 focus token to your ship and acquire a target lock on the defender."
+  },
+  "Lightning Reflexes": {
+    "text": "Small ship only. After you execute a white or green maneuver on your dial, you may discard this card to rotate your ship 180&deg;. Then receive 1 stress token after the Check Pilot Stress step."
+  },
+  "Twin Laser Turret": {
+    "text": "Attack: Perform this attack twice (even against a ship outside your firing arc). Each time this attack hits, the defender suffers 1 damage. Then cancel all dice results."
+  },
+  "Plasma Torpedoes": {
+    "text": "Attack (target lock): Spend your target lock and discard this card to perform this attack. If this attack hits, after dealing damage, remove 1 shield token from the defender."
+  },
+  "Ion Bombs": {
+    "text": "When you reveal your maneuver dial, you may discard this card to drop 1 ion bomb token. This token detonates at the end of the Activation phase. Ion Bombs Token: When this bomb token detonates, each ship at Range 1 of the token receives 2 ion tokens. Then discard this token."
+  },
+  "Conner Net": {
+    "text": "Action: Discard this card to drop 1 Conner Net token. When a ship's base or maneuver template overlaps this token, this token detonates. Conner Net Token: When this bomb token detonates, the ship that moved through or overlapped this token suffers 1 damage, receives 2 ion tokens, and skips its Perform Action step. Then discard this token."
+  },
+  "Bombardier": {
+    "text": "When dropping a bomb, you may use the (straight 2) template instead of the (straight 1) template."
+  },
+  "Crack Shot": {
+    "text": "When attacking a ship inside your firing arc, at the start of the Compare Results step, you may discard this card to cancel 1 of the defender's evade results."
+  },
+  "Advanced Homing Missiles": {
+    "text": "Attack (target lock): Discard this card to perform this attack. If this attack hits, deal 1 faceup Damage card to the defender. Then cancel all dice results."
+  },
+  "Agent Kallus": {
+    "text": "Imperial only. At the start of the first round, choose 1 enemy small or large ship. When attacking or defending against that ship, you may change 1 of your focus results to a hit or evade result."
+  },
+  "XX-23 S-Thread Tracers": {
+    "text": "Attack (focus): Discard this card to perform this attack. If this attack hits, each friendly ship at Range 1-2 of you may acquire a target lock on the defender. Then cancel all dice results."
+  },
+  "Tractor Beam": {
+    "text": "Attack: Attack 1 ship. If this attack hits, the defender receives 1 tractor beam token. Then cancel all dice results."
+  },
+  "Cloaking Device": {
+    "text": "Small ship only. Action: Perform a free cloak action. At the end of each round, if you are cloaked, roll 1 attack die. On a focus result, discard this card, then decloak or discard your cloak token."
+  },
+  "Shield Technician": {
+    "text": "Huge ship only. When you perform a recover action, instead of spending all of your energy, you can choose any amount of energy to spend."
+  },
+  "Weapons Guidance": {
+    "text": "When attacking, you may spend a focus token to change 1 of your blank results to a hit result."
+  },
+  "BB-8": {
+    "text": "When you reveal a green maneuver, you may perform a free barrel roll action."
+  },
+  "R5-X3": {
+    "text": "Before you reveal your maneuver, you may discard this card to ignore obstacles until the end of the round."
+  },
+  "Wired": {
+    "text": "When attacking or defending, if you are stressed, you may reroll 1 or more of your focus results."
+  },
+  "Cool Hand": {
+    "text": "When you receive a stress token, you may discard this card to assign 1 focus or evade token to your ship."
+  },
+  "Juke": {
+    "text": "Small ship only. When attacking, if you have an evade token, you may change 1 of the defender's evade results into a focus result."
+  },
+  "Comm Relay": {
+    "text": "You cannot have more than 1 evade token. During the End phase, do not remove an unused evade token from your ship."
+  },
+  "Dual Laser Turret": {
+    "text": "Gozanti class only. Attack (energy): Spend 1 energy from this card to perform this attack against 1 ship (even a ship outside your firing arc)."
+  },
+  "Broadcast Array": {
+    "text": "Gozanti class only. Your action bar gains the jam action icon."
+  },
+  "Rear Admiral Chiraneau": {
+    "text": "Huge ship only Imperial only. Action: Execute a white (straight 1) maneuver."
+  },
+  "Ordnance Experts": {
+    "text": "Once per round, when a friendly ship at Range 1-3 performs an attack with a torpedo or missile secondary weapon, it may change 1 of its blank results to a hit result."
+  },
+  "Docking Clamps": {
+    "text": "Gozanti class only. You may attach up to 4 TIE fighters, TIE interceptors, TIE bombers, or TIE Advanced to this ship. All attached ships must have the same ship type."
+  },
+  "Zeb Orrelios": {
+    "text": "Rebel only. Enemy ships inside your firing arc that you are touching are not considered to be touching you when either you or they activate during the Combat phase."
+  },
+  "Kanan Jarrus": {
+    "text": "Rebel only. Once per round, after a friendly ship at Range 1-2 executes a white maneuver, you may remove 1 stress token from that ship."
+  },
+  "Reinforced Deflectors": {
+    "text": "Large ship only. After defending, if you suffered a combination of 3 or more damage and critical damage during the attack, recover 1 shield (up to your shield value)."
+  },
+  "Dorsal Turret": {
+    "text": "Attack: Attack 1 ship (even a ship outside your firing arc). If the target of this attack is at Range 1, roll 1 additional attack die."
+  },
+  "Targeting Astromech": {
+    "text": "After you execute a red maneuver, you may acquire a target lock."
+  },
+  "Hera Syndulla": {
+    "text": "Rebel only. You may reveal and execute red maneuvers even while you are stressed."
+  },
+  "Ezra Bridger": {
+    "text": "Rebel only. When attacking, if you are stressed, you may change 1 of your focus results to a crit result."
+  },
+  "Sabine Wren": {
+    "text": "Rebel only. Your upgrade bar gains the bomb upgrade icon. Once per round, before a friendly bomb token is removed, choose 1 enemy ship at Range 1 of that token. That ship suffers 1 damage."
+  },
+  "Chopper": {
+    "text": "Rebel only. You may perform actions even while you are stressed. After you perform an action while you are stressed, suffer 1 damage."
+  },
+  "Construction Droid": {
+    "text": "Huge ship only. When you perform a recover action, you may spend 1 energy to discard 1 facedown Damage card."
+  },
+  "Cluster Bombs": {
+    "text": "After defending, you may discard this card. If you do, each other ship at Range 1 of the defending section rolls 2 attack dice, suffering all damage (hit) and critical damage (crit) rolled."
+  },
+  "Adaptability": {
+    "text": "Dual card. Side A: Increase your pilot skill value by 1. Side B: Decrease your pilot skill value by 1."
+  },
+  "Electronic Baffle": {
+    "text": "When you receive a stress token or an ion token, you may suffer 1 damage to discard that token."
+  },
+  "4-LOM": {
+    "text": "Scum only. When attacking, during the Modify Attack Dice step, you may receive 1 ion token to choose 1 of the defender's focus or evade tokens. That token cannot be spent during this attack."
+  },
+  "Zuckuss": {
+    "text": "Scum only. When attacking, you may receive any number of stress tokens to choose an equal number of defense dice. The defender must reroll those dice."
+  },
+  "Rage": {
+    "text": "Action: Assign 1 focus token to your ship and receive 2 stress tokens. Until the end of the round, when attacking, you may reroll up to 3 attack dice."
+  },
+  "Attanni Mindlink": {
+    "text": "Scum only. Each time you are assigned a focus or stress token, each other friendly ship with Attanni Mindlink must also be assigned the same type of token if it does not already have one."
+  },
+  "Boba Fett": {
+    "text": "Scum only. After performing an attack, if the defender was dealt a faceup Damage card, you may discard this card to choose and discard 1 of the defender's Upgrade cards."
+  },
+  "Dengar": {
+    "text": "Scum only. When attacking, you may reroll 1 attack die. If the defender is a unique pilot, you may instead reroll up to 2 attack dice."
+  },
+  "Gonk": {
+    "text": "Scum only. Action: Place 1 shield token on this card. Action: Remove 1 shield token from this card to recover 1 shield (up to your shield value)."
+  },
+  "R5-P8": {
+    "text": "Once per round, after defending, you may roll 1 attack die. On a hit result, the attacker suffers 1 damage. On a crit result, you and the attacker each suffer 1 damage."
+  },
+  "Thermal Detonators": {
+    "text": "When you reveal your maneuver dial, you may discard this card to drop 1 thermal detonator token. This token detonates at the end of the Activation phase. Thermal Detonator Token: When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage and receives 1 stress token. Then discard this token."
+  },
+  "Overclocked R4": {
+    "text": "During the Combat phase, when you spend a focus token, you may receive 1 stress token to assign 1 focus token to your ship."
+  },
+  "Systems Officer": {
+    "text": "Imperial only. After you execute a green maneuver, choose another friendly ship at Range 1. That ship may acquire a target lock."
+  },
+  "Tail Gunner": {
+    "text": "When attacking from your rear-facing auxiliary firing arc, reduce the defender's agility by 1 (to a minimum of 0)."
+  },
+  "R3 Astromech": {
+    "text": "Once per round, when attacking with a primary weapon, you may cancel 1 of your focus results during the Modify Attack Dice step to assign 1 evade token to your ship."
+  },
+  "Collision Detector": {
+    "text": "When performing a boost, barrel roll, or decloak, your ship and maneuver template can overlap obstacles. When rolling for obstacle damage, ignore all crit results."
+  },
+  "Sensor Cluster": {
+    "text": "When defending, you may spend a focus token to change 1 of your blank results to an evade result."
+  },
+  "Fearlessness": {
+    "text": "Scum only. When attacking, if you are inside the defender's firing arc at Range 1 and the defender is inside your firing arc, you may add 1 hit result to your roll."
+  },
+  "Ketsu Onyo": {
+    "text": "Scum only. At the start of the End phase, you may choose 1 ship in your firing arc at Range 1-2. That ship does not remove its tractor beam tokens."
+  },
+  "Latts Razzi": {
+    "text": "Scum only. When defending, you may remove 1 stress token from the attacker to add 1 evade result to your roll."
+  },
+  "IG-88D": {
+    "text": "Scum only. You have the pilot ability of each other friendly ship with the  IG-2000  Upgrade card (in addition to your own pilot ability)."
+  },
+  "Rigged Cargo Chute": {
+    "text": "Large ship only. Action: Discard this card to drop one cargo token."
+  },
+  "Seismic Torpedo": {
+    "text": "Action: Discard this card to choose an obstacle at Range 1-2 and inside your primary firing arc. Each ship at Range 1 of the obstacle rolls 1 attack die and suffers any damage (hit) or critical damage (crit) rolled. Then remove the obstacle."
+  },
+  "Black Market Slicer Tools": {
+    "text": "Action: Choose a stressed enemy ship at Range 1-2 and roll 1 attack die. On a (hit) or (crit) result, remove 1 stress token and deal it 1 facedown Damage card."
+  },
+  "Kylo Ren": {
+    "text": "Imperial only. Action: Assign the I'll Show You the Dark Side Condition card to an enemy ship at Range 1-3. I'll Show You the Dark Side: When this card is assigned, if it is not already in play, the player who dealt it searches the Damage deck for 1 Damage card with the Pilot trait and may place it faceup on this card. Then shuffle the damage deck. When you suffer critical damage from an attack, you are instead dealt the chosen faceup Damage card. When there is no Damage card on this card, remove it."
+  },
+  "Unkar Plutt": {
+    "text": "Scum only. After executing a maneuver that causes you to overlap an enemy ship, you may suffer 1 damage to perform 1 free action."
+  },
+  "A Score to Settle": {
+    "text": "During setup, before the Place Forces step, choose 1 enemy ship and deal the A Debt to Pay Condition card to it. When attacking a ship that has the A Debt to Pay Condition card, you may change 1 focus result to a crit result."
+  },
+  "Jyn Erso": {
+    "text": "Rebel only. Action: Choose 1 friendly ship at Range 1-2. Assign 1 focus token to that ship for each enemy ship inside your firing arc at Range 1-3. You cannot assign more than 3 focus tokens in this way."
+  },
+  "Cassian Andor": {
+    "text": "Rebel only. At the end of the Planning phase, you may choose an enemy ship at Range 1-2. Guess aloud that ship's bearing and speed, then look at its dial. If you are correct, you may rotate your dial to another maneuver."
+  },
+  "Finn": {
+    "text": "Rebel only. When attacking with a primary weapon or defending, if the enemy ship is inside your firing arc, you may add 1 blank result to your roll."
+  },
+  "Rey": {
+    "text": "Rebel only. At the start of the End phase, you may place 1 of your ship's focus tokens on this card. At the start of the Combat phase, you may assign 1 of those tokens to your ship."
+  },
+  "Burnout SLAM": {
+    "text": "Large ship only. Your action bar gains the slam action icon. After you perform a SLAM action, discard this card."
+  },
+  "Primed Thrusters": {
+    "text": "Small ship only. Stress tokens do not prevent you from performing boost or barrel roll actions unless you have 3 or more stress tokens."
+  },
+  "Pattern Analyzer": {
+    "text": "When executing a maneuver, you may resolve the Check Pilot Stress step after the Perform Action step (instead of before that step)."
+  },
+  "Snap Shot": {
+    "text": "After an enemy ship executes a maneuver, you may perform this attack against that ship. Attack: Attack 1 ship. You cannot modify your attack dice and cannot attack again this phase."
+  },
+  "M9-G8": {
+    "text": "Rebel only. When a ship you have locked is attacking, you may choose 1 attack die. The attacker must reroll that die. You can acquire target locks on other friendly ships."
+  },
+  "EMP Device": {
+    "text": "During the Combat phase, instead of performing any attacks, you may discard this card to assign 2 ion tokens to each ship at Range 1."
+  },
+  "Captain Rex": {
+    "text": "Rebel only. After you perform an attack that does not hit, you may assign 1 focus token to your ship."
+  }
+}

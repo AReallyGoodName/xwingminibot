@@ -1,0 +1,89 @@
+{
+  "Stealth Device": {
+    "text": "Increase your agility value by 1. If you are hit by an attack, discard this card."
+  },
+  "Shield Upgrade": {
+    "text": "Increase your shield value by 1."
+  },
+  "Engine Upgrade": {
+    "text": "Your action bar gains the boost action icon."
+  },
+  "Anti-Pursuit Lasers": {
+    "text": "Large ship only. After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a hit or crit result, the enemy ship suffers 1 damage."
+  },
+  "Targeting Computer": {
+    "text": "Your action bar gains the target lock action icon."
+  },
+  "Hull Upgrade": {
+    "text": "Increase your hull value by 1."
+  },
+  "Munitions Failsafe": {
+    "text": "When attacking with a secondary weapon that instructs you to discard it to perform the attack, do not discard it unless the attack hits."
+  },
+  "Stygium Particle Accelerator": {
+    "text": "When you either decloak or perform a cloak action, you may perform a free evade action."
+  },
+  "Advanced Cloaking Device": {
+    "text": "TIE Phantom only. After you perform an attack, you may perform a free cloak action."
+  },
+  "Combat Retrofit": {
+    "text": "GR-75 only. Increase your hull value by 2 and your shield value by 1."
+  },
+  "B-Wing/E2": {
+    "text": "B-Wing only. Your upgrade bar gains the crew upgrade icon."
+  },
+  "Countermeasures": {
+    "text": "Large ship only. At the start of the Combat phase, you may discard this card to increase your agility value by 1 until the end of the round. Then you may remove 1 enemy target lock from your ship."
+  },
+  "Experimental Interface": {
+    "text": "Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the Action: header. Then receive 1 stress token."
+  },
+  "Tactical Jammer": {
+    "text": "Large ship only. Your ship can obstruct enemy attacks."
+  },
+  "Autothrusters": {
+    "text": "When defending, if you are beyond Range 2 or outside the attacker's firing arc, you may change 1 of your blank results to a evade result. You can equip this card only if you have the boost action icon."
+  },
+  "Advanced SLAM": {
+    "text": "After performing a SLAM action, if you did not overlap an obstacle or another ship, you may perform a free action."
+  },
+  "Twin Ion Engine Mk. II": {
+    "text": "TIE only. You may treat all bank maneuvers (bank left and bank right) as green maneuvers."
+  },
+  "Maneuvering Fins": {
+    "text": "YV-666 only. When you reveal a turn maneuver (turn left or turn right), you may rotate your dial to the corresponding bank maneuver (bank left or bank right) of the same speed."
+  },
+  "Ion Projector": {
+    "text": "Large ship only. After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die. On a hit or crit result, the enemy ship receives 1 ion token."
+  },
+  "Integrated Astromech": {
+    "text": "X-wing only. When you are dealt a Damage card, you may discard 1 of your astromech Upgrade cards to discard that Damage card."
+  },
+  "Optimized Generators": {
+    "text": "Huge ship only. Once per round, when you assign energy to an equipped Upgrade card, gain 2 energy."
+  },
+  "Automated Protocols": {
+    "text": "Huge ship only. Once per round, after you perform an action that is not a recover or reinforce action, you may spend 1 energy to perform a free recover or reinforce action."
+  },
+  "Ordnance Tubes": {
+    "text": "Huge ship only. You may treat each of your hardpoint upgrade icons as a torpedo or missile icon. When you are instructed to discard a torpedo or missile Upgrade card, do not discard it."
+  },
+  "Long-Range Scanners": {
+    "text": "You can acquire target locks on ships at Range 3 and beyond. You cannot acquire target locks on ships at Range 1-2. You can equip this card only if you have torpedo and missile in your upgrade bar."
+  },
+  "Guidance Chips": {
+    "text": "Once per round, when attacking with a torpedo or missile secondary weapon, you may change 1 die result to a hit result (or a crit result if your primary weapon value is 3 or higher)."
+  },
+  "Vectored Thrusters": {
+    "text": "Small ship only. Your action bar gains the barrel roll action icon."
+  },
+  "Smuggling Compartment": {
+    "text": "YT-1300 and YT-2400 only. Your upgrade bar gains the illicit upgrade icon. You may equip 1 additional Modification upgrade that costs 3 or fewer squad points."
+  },
+  "Gyroscopic Targeting": {
+    "text": "Lancer-class Pursuit Craft only. At the end of the Combat phase, if you executed a 3-, 4-, or 5-speed maneuver this round, you may rotate your mobile firing arc."
+  },
+  "Captured TIE": {
+    "text": "TIE Fighter only. Rebel only. Enemy ships with a pilot skill value lower than yours cannot declare you as the target of an attack.  After you perform an attack or when you are the only remaining friendly ship, discard this card."
+  }
+}

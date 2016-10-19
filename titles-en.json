@@ -1,0 +1,143 @@
+{
+ "Slave I": {
+  "text": "Firespray-31 only. Your upgrade bar gains the torpedo upgrade icon."
+ },
+ "Millennium Falcon": {
+  "text": "YT-1300 only. Your action bar gains the evade action icon."
+ },
+ "Moldy Crow": {
+  "text": "HWK-290 only. During the End phase, do not remove unused focus tokens from your ship."
+ },
+ "ST-321": {
+  "text": " Lambda -class Shuttle only. When acquiring a target lock, you may lock onto any enemy ship in the play area."
+ },
+ "Royal Guard TIE": {
+  "text": "TIE Interceptor only. You may equip up to 2 different Modification upgrades (instead of 1). You cannot equip this card if your pilot skill value is 4 or lower."
+ },
+ "Dodonna's Pride": {
+  "text": "CR90 fore section only. When you perform a coordinate action, you may choose 2 friendly ships (instead of 1). Those ships may each perform 1 free action."
+ },
+ "A-Wing Test Pilot": {
+  "text": "A-Wing only. Your upgrade bar gains 1 elite upgrade icon. You cannot equip 2 of the same elite Upgrade cards. You cannot equip this if your pilot skill value is 1 or lower."
+ },
+ "Tantive IV": {
+  "text": "CR90 fore section only. Your fore section upgrade bar gains 1 additional crew and 1 additional team upgrade icon."
+ },
+ "Bright Hope": {
+  "text": "GR-75 only. A reinforce action assigned to your fore section adds 2 evade results (instead of 1)."
+ },
+ "Quantum Storm": {
+  "text": "GR-75 only. At the start of the End phase, if you have 1 or fewer energy tokens, gain 1 energy token."
+ },
+ "Dutyfree": {
+  "text": "GR-75 only. When performing a jam action, you may choose an enemy ship at Range 1-3 (instead of at Range 1-2)."
+ },
+ "Jaina's Light": {
+  "text": "CR90 fore section only. When defending, once per attack, if you are dealt a faceup Damage card, you may discard it and draw another faceup Damage card."
+ },
+ "Outrider": {
+  "text": "YT-2400 only. While you have a cannon Upgrade card equipped, you cannot perform primary weapon attacks and you may perform cannon secondary weapon attacks against ships outside your firing arc."
+ },
+ "Dauntless": {
+  "text": "VT-49 Decimator only. After you execute a maneuver that causes you to overlap another ship, you may perform 1 free action. Then receive 1 stress token."
+ },
+ "Virago": {
+  "text": "StarViper only. Your upgrade bar gains the system and illicit upgrade icons. You cannot equip this card if your pilot skill value is 3 or lower."
+ },
+ "Heavy Scyk Interceptor (Cannon)": {
+  "text": "M3-A Interceptor only. Your upgrade bar gains the cannon, torpedo, or missile upgrade icon. Increase your hull value by 1."
+ },
+ "Heavy Scyk Interceptor (Torpedo)": {
+  "text": "M3-A Interceptor only. Your upgrade bar gains the cannon, torpedo, or missile upgrade icon. Increase your hull value by 1."
+ },
+ "Heavy Scyk Interceptor (Missile)": {
+  "text": "M3-A Interceptor only. Your upgrade bar gains the cannon, torpedo, or missile upgrade icon. Increase your hull value by 1."
+ },
+ "IG-2000": {
+  "text": "Aggressor only. You have the pilot ability of each other friendly ship with the  IG-2000  Upgrade card (in addition to your own pilot ability)."
+ },
+ "BTL-A4 Y-Wing": {
+  "text": "Y-Wing only. You cannot attack ships outside your firing arc. After you perform a primary weapon attack, you may immediately perform an attack with a turret secondary weapon."
+ },
+ "Andrasta": {
+  "text": "Your upgrade bar gains two additional bomb upgrade icons."
+ },
+ "TIE/x1": {
+  "text": "TIE Advanced only. Your upgrade bar gains the system upgrade icon. If you equip a system upgrade, its squad point cost is reduced by 4 (to a minimum of 0)."
+ },
+ "Hound's Tooth": {
+  "text": "YV-666 only. After you are destroyed, before you are removed from the play area, you may deploy the  Nashtah Pup  ship. It cannot attack this round."
+ },
+ "Ghost": {
+  "text": "VCX-100 only. Equip the  Phantom  title card to a friendly Attack Shuttle and dock it to this ship. After you execute a maneuver, you may deploy it from your rear guides."
+ },
+ "Phantom": {
+  "text": "While you are docked, the  Ghost  can perform primary weapon attacks from its special firing arc, and, at the end of the Combat phase, it may perform an additional attack with an equipped turret. If it performs this attack, it cannot attack again this round."
+ },
+ "TIE/v1": {
+  "text": "TIE Advanced Prototype only. After you acquire a target lock, you may perform a free evade action."
+ },
+ "Mist Hunter": {
+  "text": "G-1A starfighter only. Your action bar gains the barrel roll action icon. You must equip 1 Tractor Beam Upgrade card (paying its squad point cost as normal)."
+ },
+ "Punishing One": {
+  "text": "JumpMaster 5000 only. Increase your primary weapon value by 1."
+ },
+ "Assailer": {
+  "text": " Raider -class corvette aft section only. When defending, if the targeted section has a reinforce token, you may change 1 focus result to a evade result."
+ },
+ "Instigator": {
+  "text": " Raider -class corvette aft section only. After you perform a recover action, recover 1 additional shield."
+ },
+ "Impetuous": {
+  "text": " Raider -class corvette aft section only. After you perform an attack that destroys an enemy ship, you may acquire a target lock."
+ },
+ "TIE/x7": {
+  "text": "TIE Defender only. Your upgrade bar loses the cannon and missile upgrade icons. After executing a 3-, 4-, or 5-speed maneuver, you may assign 1 evade token to your ship."
+ },
+ "TIE/D": {
+  "text": "TIE Defender only. Once per round, after you perform an attack with a cannon secondary weapon that costs 3 or fewer squad points, you may perform a primary weapon attack."
+ },
+ "TIE Shuttle": {
+  "text": "TIE Bomber only. Your upgrade bar loses all torpedo, missile, and bomb upgrade icons and gains 2 crew upgrade icons. You cannot equip a crew Upgrade card that costs more than 4 squad points."
+ },
+ "Requiem": {
+  "text": "Gozanti class only. When you deploy a ship, treat its pilot skill value as 8 until the end of the round."
+ },
+ "Vector": {
+  "text": "Gozanti class only. After you execute a maneuver, you may deploy up to 4 attached ships (instead of 2)."
+ },
+ "Suppressor": {
+  "text": "Gozanti class only. Once per round, after you acquire a target lock, you may remove 1 focus, evade, or blue target lock token from that ship."
+ },
+ "Black One": {
+  "text": "After you perform a boost or barrel roll action, you may remove 1 enemy target lock from a friendly ship at Range 1. You cannot equip this card if your pilot skill is 6 or lower."
+ },
+ "Millennium Falcon (TFA)": {
+  "text": "After you execute a 3-speed bank maneuver (bank left or bank right), if you are not touching another ship and you are not stressed, you may receive 1 stress token to rotate your ship 180&deg;."
+ },
+ "Alliance Overhaul": {
+  "text": "ARC-170 only. When attacking with a primary weapon from your primary firing arc, you may roll 1 additional attack die. When attacking from your auxiliary firing arc, you may change 1 of your focus results to a crit result."
+ },
+ "Special Ops Training": {
+  "text": "TIE/sf only. When attacking with a primary weapon from your primary firing arc, you may roll 1 additional attack die. If you do not, you may perform an additional attack from your auxiliary firing arc."
+ },
+ "Concord Dawn Protector": {
+  "text": "Protectorate Starfighter only. When defending, if you are inside the attacker's firing arc and at Range 1 and the attacker is inside your firing arc, add 1 evade result."
+ },
+ "Shadow Caster": {
+  "text": "Lancer-class Pursuit Craft only. After you perform an attack that hits, if the defender is inside your mobile firing arc and at Range 1-2, you may assign the defender 1 tractor beam token."
+ },
+ "Sabine's Masterpiece": {
+  "text": "TIE Fighter only.Rebel only. Your upgrade bar gains the crew and illicit upgrade icons."
+ },
+ "Kylo Ren's Shuttle": {
+  "text": "Upsilon-class Shuttle only. At the end of the Combat phase, choose an unstressed enemy ship at Range 1-2. Its owner must assign a stress token to it or assign a stress token to another ship at Range 1-2 of you that that player controls."
+ },
+ "Pivot Wing": {
+  "text": "U-Wing only. Dual card. Side A (Attack): Increase your agility by 1. After you execute a maneuver, you may flip this card. Side B (Landing): When you reveal a (0 stop) maneuver, you may rotate your ship 180&deg;. After you execute a maneuver, you may flip this card."
+ },
+ "Adaptive Ailerons": {
+  "text": "TIE Striker only. Immediately before you reveal your dial, if you are not stressed, you must execute a white (bank left 1), (straight 1), or (bank right 1) maneuver."
+ }
+}
