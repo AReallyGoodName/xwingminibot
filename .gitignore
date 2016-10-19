@@ -3,7 +3,7 @@
 !tokenlist.json
 *.db
 credentials.py
-
+*.iml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
