@@ -460,5 +460,11 @@
   },
   "Captain Rex": {
     "text": "After you perform an attack, assign the 'Suppressive Fire' Condition card to the defender. Suppressive Fire: When attacking a ship other than 'Captain Rex,' roll 1 fewer attack die. When you declare an attack targeting 'Captain Rex'or when 'Captain Rex' is destroyed, remove this card. At the end of the Combat phase, if 'Captain Rex' did not perform an attack this phase, remove this card."
+  },
+  "Major Stridan": {
+    "text": "For the purpose of your actions and Upgrade cards, you may treat friendly ships at Range 2-3 as being at Range 1."
+  },
+  "Lieutenant Dormitz": {
+    "text": "During setup, friendly ships may placed anywhere in the play area at Range 1-2 of you."
   }
 }
