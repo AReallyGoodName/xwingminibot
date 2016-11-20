@@ -638,7 +638,7 @@
   "Trick Shot": {
     "text": "When attacking, if the attack is obstructed, you may roll 1 additional attack die."
   },
-  "Hyperwave Comm Scanner": {
+  "Hotshot Co-pilot": {
     "text": "When attacking with a primary weapon, the defender must spend 1 focus token if able.%LINEBREAK%When defending, the attacker must spend 1 focus token if able."
   }
 }
