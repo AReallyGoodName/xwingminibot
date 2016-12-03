@@ -5917,7 +5917,7 @@
       "points": 30
     },
     {
-      "name": "Const???",
+      "name": "Constable Zuvio",
       "id": 230,
       "unique": true,
       "faction": "Scum and Villainy",
@@ -5930,7 +5930,7 @@
         "Tech",
         "Illicit"
       ],
-      "points": 100
+      "points": 19
     },
     {
       "name": "Sarco Plank",
@@ -5964,7 +5964,7 @@
       "points": 17
     },
     {
-      "name": "Jakku ???",
+      "name": "Jakku Gunrunner",
       "id": 233,
       "faction": "Scum and Villainy",
       "ship": "Quadjumper",
@@ -5975,7 +5975,7 @@
         "Tech",
         "Illicit"
       ],
-      "points": 100
+      "points": 15
     },
     {
       "name": "Cassian Andor",
@@ -7641,6 +7641,12 @@
       "id": 214,
       "slot": "Elite",
       "points": 0
+    },
+    {
+      "name": "Scavenger Crane",
+      "id": 215,
+      "slot": "Illicit",
+      "points": 2
     }
   ],
   "modificationsById": [
@@ -7816,6 +7822,12 @@
       "ship": "TIE Fighter",
       "faction": "Rebel Alliance",
       "points": 1
+    },
+    {
+      "name": "Spacetug Tractor Array",
+      "id": 30,
+      "ship": "Quadjumper",
+      "points": 2
     }
   ],
   "titlesById": [

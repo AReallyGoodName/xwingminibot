@@ -466,5 +466,8 @@
   },
   "Lieutenant Dormitz": {
     "text": "During setup, friendly ships may placed anywhere in the play area at Range 1-2 of you."
+  },
+  "Constable Zuvio": {
+    "text": "When you reveal a reverse maneuver, you may drop a bomb using your front guides (including a bomb with the 'Action:' header)."
   }
 }

@@ -588,7 +588,7 @@
     "text": "Scum only. After executing a maneuver that causes you to overlap an enemy ship, you may suffer 1 damage to perform 1 free action."
   },
   "A Score to Settle": {
-    "text": "During setup, before the Place Forces step, choose 1 enemy ship and deal the A Debt to Pay Condition card to it. When attacking a ship that has the A Debt to Pay Condition card, you may change 1 focus result to a crit result."
+    "text": "During setup, before the Place Forces step, choose 1 enemy ship and deal the A Debt to Pay Condition card to it. When attacking a ship that has the 'A Debt to Pay' card, you may change 1 focus result to a crit result. Debt to pay: When attacking a ship that has the 'A Score to Settle' Upgrade card equipped, you may change 1 focus result to a crit result."
   },
   "Jyn Erso": {
     "text": "Rebel only. Action: Choose 1 friendly ship at Range 1-2. Assign 1 focus token to that ship for each enemy ship inside your firing arc at Range 1-3. You cannot assign more than 3 focus tokens in this way."
@@ -640,5 +640,8 @@
   },
   "Hotshot Co-pilot": {
     "text": "When attacking with a primary weapon, the defender must spend 1 focus token if able.%LINEBREAK%When defending, the attacker must spend 1 focus token if able."
+  },
+  "Scavenger Crane": {
+    "text": "After a ship at Range 1-2 is destroyed, you may choose a discarded torpedo, Missile, Bomb, Cannon, Turret, or Modification Upgrade card that was equipped to your ship and flip it faceup.  Then roll 1 attack die.  On a blank result, discard Scavenger Crane."
   }
 }
