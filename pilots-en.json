@@ -443,6 +443,12 @@
   "Cassian Andor": {
     "text": "At the start of the Activation phase, you may remove 1 stress token from 1 other friendly ship at Range 1-2."
   },
+  "Bodhi Rook": {
+    "text": "When a friendly ship acquires a target lock, that ship can lock onto an enemy ship at Range 1-3 of any friendly ship."
+  },
+  "Heff Tobber": {
+    "text": "After an enemy ship executes a maneuver that causes it to overlap your ship, you may perform a free action."
+  },
   "Duchess": {
     "text": "While you have the Adaptive Ailerons Upgrade card equipped, you may choose to ignore its card ability."
   },

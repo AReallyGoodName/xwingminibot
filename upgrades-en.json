@@ -643,5 +643,14 @@
   },
   "Scavenger Crane": {
     "text": "After a ship at Range 1-2 is destroyed, you may choose a discarded torpedo, Missile, Bomb, Cannon, Turret, or Modification Upgrade card that was equipped to your ship and flip it faceup.  Then roll 1 attack die.  On a blank result, discard Scavenger Crane."
+  },
+  "Bodhi Rook": {
+    "text": "Rebel only: When you acquire a target lock, you can lock onto an enemy ship at Range 1-3 of any friendly ship."
+  },
+  "Baze Malbus": {
+    "text": "Rebel only: After you perform an attack that does not hit, you may immediately perform a primary weapon attack against a different ship.  You cannot perform another attack this round."
+  },
+  "Inspiring Recruit": {
+    "text": "Once per round, when a friendly ship at Range 1-2 removes a stress token, it may remove 1 additional stress token."
   }
 }
