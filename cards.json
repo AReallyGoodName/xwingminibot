@@ -7669,7 +7669,7 @@
     {
       "name": "Swarm Leader",
       "id": 219,
-      "unique": true
+      "unique": true,
       "slot": "Elite",
       "points": 3
     },
