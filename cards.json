@@ -5849,7 +5849,7 @@
       "ship": "TIE Fighter",
       "skill": 3,
       "slots": [],
-      "points": 100
+      "points": 13
     },
     {
       "name": "Kylo Ren",
@@ -5946,7 +5946,7 @@
         "Tech",
         "Illicit"
       ],
-      "points": 100
+      "points": 18
     },
     {
       "name": "Unkar Plutt",
@@ -6038,7 +6038,7 @@
       "points": 23
     },
     {
-      "name": "\"Duchess\"",
+      "name": "Duchess",
       "id": 238,
       "unique": true,
       "faction": "Galactic Empire",
@@ -6050,51 +6050,53 @@
       "points": 23
     },
     {
-      "name": "\"Pure???\"",
+      "name": "Pure Sabacc",
       "id": 239,
       "unique": true,
       "faction": "Galactic Empire",
       "ship": "TIE Striker",
       "skill": 6,
-      "slots": [],
-      "points": 100
+      "slots": [
+        "Elite"
+      ],
+      "points": 22
     },
     {
-      "name": "Unspoiled PS5 TIE Striker Pilot",
+      "name": "Countdown",
       "id": 240,
       "unique": true,
       "faction": "Galactic Empire",
       "ship": "TIE Striker",
       "skill": 5,
       "slots": [],
-      "points": 100
+      "points": 20
     },
     {
-      "name": "Unspoiled PS4 TIE Striker Pilot",
+      "name": "Black Squadron Scout",
       "id": 241,
       "faction": "Galactic Empire",
       "ship": "TIE Striker",
       "skill": 4,
       "slots": [],
-      "points": 100
+      "points": 20
     },
     {
-      "name": "Unspoiled PS3 TIE Striker Pilot",
+      "name": "Scarif Defender",
       "id": 242,
       "faction": "Galactic Empire",
       "ship": "TIE Striker",
       "skill": 3,
       "slots": [],
-      "points": 100
+      "points": 18
     },
     {
-      "name": "Unspoiled PS1 TIE Striker Pilot",
+      "name": "Imperial Trainee",
       "id": 243,
       "faction": "Galactic Empire",
       "ship": "TIE Striker",
       "skill": 1,
       "slots": [],
-      "points": 100
+      "points": 17
     }
   ],
   "upgradesById": [
@@ -7665,10 +7667,32 @@
       "points": 3
     },
     {
-      "name": "Inspiring Recruit",
-      "id": 218,
+      "name": "Swarm Leader",
+      "id": 219,
+      "unique": true
+      "slot": "Elite",
+      "points": 3
+    },
+    {
+      "name": "Expertise",
+      "id": 220,
+      "slot": "Elite",
+      "points": 4
+    },
+    {
+      "name": "Bistan",
+      "id": 221,
       "slot": "Crew",
-      "points": 1
+      "unique": true,
+      "faction": "Rebel Alliance",
+      "points": 2
+    },
+    {
+      "name": "BoShek",
+      "id": 222,
+      "slot": "Crew",
+      "unique": true,
+      "points": 2
     }
   ],
   "modificationsById": [
@@ -7849,6 +7873,12 @@
       "name": "Spacetug Tractor Array",
       "id": 30,
       "ship": "Quadjumper",
+      "points": 2
+    },
+    {
+      "name": "Lightweight Frame",
+      "id": 31,
+      "ship": "TIE with agility < 3",
       "points": 2
     }
   ],

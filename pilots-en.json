@@ -452,6 +452,12 @@
   "Duchess": {
     "text": "While you have the Adaptive Ailerons Upgrade card equipped, you may choose to ignore its card ability."
   },
+  "Pure Sabacc": {
+    "text": "When attacking, if you have 1 or fewer Damage cards, roll 1 additional attack die."
+  },
+  "Countdown": {
+    "text": "When defending, if you are not stressed, during the 'Compare Results' step, you may suffer 1 damage to cancel all dice results.  If you do, receive 1 stress token."
+  },
   "Nien Nunb": {
     "text": "When you receive a stress token, if there is an enemy ship inside your firing arc at Range 1, you may discard that stress token."
   },
@@ -475,5 +481,8 @@
   },
   "Constable Zuvio": {
     "text": "When you reveal a reverse maneuver, you may drop a bomb using your front guides (including a bomb with the 'Action:' header)."
+  },
+  "Sarco Plank": {
+    "text": "When defending, instead of using your agility value, you may roll a number of defense dice equal to the speed of the maneuver you executed this round."
   }
 }

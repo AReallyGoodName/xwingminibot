@@ -88,5 +88,8 @@
   },
   "Spacetug Tractor Array": {
     "text": "Quadjumper only. Action: Choose a ship inside your firing arc at Range 1 and assign a tractor beam token to it.  If it is a friendly ship, resolve the effect of the tractor beam token as though it were an enemy ship."
+  },
+  "Lightweight Frame": {
+    "text": "TIE only. When defending, after rolling defense dice, if there are more attack dice than defense dice, roll 1 additional defense die. You cannot equip this card if your agility value is '3' or higher."
   }
 }
